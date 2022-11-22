@@ -18,11 +18,16 @@ try {
                 $descr = $row['descr'];
     
                 ?>
-                <div><br>
+                <div class="tarjeta">
+                    <div class="grid-tarjeta">
+                    <div class="tarjeta-item">imagen</div>
+                    <div class="tarjeta-item">
                     <h3> <?php echo "$offer ";?> </h3>
                     Añadido: <?php echo "$dateadd";?><br>
                     <b>Por: </b> <?php echo "$name $email";?><br>
-                    Descripción: <?php echo "$descr";?><br>______________________________
+                    Descripción: <?php echo "$descr";?>
+                    </div>
+            </div> 
             </div><?php
     
     

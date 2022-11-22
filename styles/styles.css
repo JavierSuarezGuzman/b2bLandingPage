@@ -22,6 +22,7 @@ ul {
 li {
     display: inline;
     float: left;
+   /*vertical-align: bottom;*/
 }
 
 li .a2:hover {
@@ -50,38 +51,13 @@ li .a2:hover {
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    margin: 1px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
 
-
-
-/* marquee
-@keyframes example {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
-    }
-    
-.absoluto {
-    width: 100%;
-    position: relative; 
-    overflow: hidden; 
-}
-    .marquee {
-		height: 100px;
-		width: 250px;
-      background-color: red;
-      display: flex;
-      animation: linear;
-      animation-name: example;
-      animation-duration: 13s;
-      animation-iteration-count: infinite;
-    }
-    .marquee:hover {
-        animation: stop ;
-    }
-*/
 
 /*https://www.geeksforgeeks.org/how-to-make-a-carousel-using-css/*/
         /* ----- slideshow stylings ----- */
@@ -96,7 +72,7 @@ li .a2:hover {
     /* We give it width as 400% because we are making a 
        4 image carousel. If you want to make for example, 
        5 images carousel, then give width as 500%. */
-    width: 400%;
+    width: 500%;
     height: 100%;
     position: relative;
     /* you can change the animation settings from below */
@@ -131,3 +107,25 @@ li .a2:hover {
     90% {left: 0%}
     }
     /* ----- end of slideshow stylings ----- */
+
+
+/*esta contendrá el resultado de cada búsqueda */
+.tarjeta {
+    padding: 1.25rem;
+    margin-inline-start: 7%;
+    margin-inline-end: 7%;
+    margin-top: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+}
+
+.grid-tarjeta {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tarjeta-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    text-align: left;
+}
