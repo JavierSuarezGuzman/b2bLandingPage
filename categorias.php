@@ -44,7 +44,7 @@
 
         <div class="grid-item">
         <a class="a-grid" href="#"><img src="assets/construction.png" height="100px"/>
-        <br> Construcción></a> 
+        <br> Construcción</a> 
         </div>
 
         <div class="grid-item">

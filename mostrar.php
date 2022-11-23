@@ -2,11 +2,19 @@
 
 ?><br><br><br><br><?php
 
+//PENDIENTE1: Achicar las imagenes
+
+//PENDIENTE2: Buscador
+        //$search = trim($_GET["busqueda"]);
+
+        //$consulta = "SELECT * FROM `b2b` WHERE `offer`AND`descr` LIKE `$search` ORDER BY `id` DESC";
+
+
 try {
     $include = include("con_bd.php");
 
     if($include) {
-        $consulta = "SELECT * FROM `b2b`";
+        $consulta = "SELECT * FROM `b2b` ORDER BY `id` DESC";
         $resultado = mysqli_query($conexion,$consulta);
         if($resultado){
             while($row = $resultado->fetch_array()){

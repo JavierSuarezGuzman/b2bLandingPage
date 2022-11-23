@@ -31,8 +31,8 @@
     <hr><br>
     <div class="firma">
         <img height="21px" src="assets/Morganalogoblue.png"> &nbsp;
-        <span> - Javier "KuaKer" Suárez Guzmán</span> - 
-        CopyLeft - <?php echo date(" Y ")?> - 
+        <span> - Javier "KuaKer" Suárez Guzmán - </span>
+        - CopyLeft - <?php echo date(" Y ")?> - 
         Siguenos en: &nbsp; <img height="21px" src="assets/redes.png">
     </div>
 </div>

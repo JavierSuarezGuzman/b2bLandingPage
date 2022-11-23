@@ -13,14 +13,6 @@ include("header.php");
 include("mostrar.php");
 include("footer.php");
 
-
-/*$lista = true;
-$grilla = false;
-if($lista){
-    include("mostrar.php");
-}elseif($grilla){
-    include("mostrargrilla.php");
-}*/
 ?>
 
 
