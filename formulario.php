@@ -13,6 +13,7 @@ include("header.php");?>
 <input type="text" placeholder="Nombre completo" name='nombre'><br>
 <input type="email" placeholder="Correo electrónico" name='correo'><br><br>
 
+<input type="file" name="file"><br>
 <input type="text" placeholder="Título del producto o servicio a ofrecer" name="ofrecimiento"><br><br>
 <textarea placeholder="Describa su producto o servicio" name="descripcion"></textarea><br>
 

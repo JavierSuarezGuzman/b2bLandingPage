@@ -12,6 +12,8 @@ if(isset($_POST["registrar"])) {
         $email = trim($_POST["correo"]);
         $dateadd = date("d/m/y");
         $offer = trim($_POST["ofrecimiento"]);
+        //https://www.codexworld.com/upload-store-image-file-in-database-using-php-mysql/
+        //$image = 
         $descr = trim($_POST["descripcion"]);
         //$score = trim($_POST["valoracion"]);
 

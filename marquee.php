@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <div class="slideshow">
     <h2>Productos y proveedores destacados:</h2> 
 
-    <div class="slideshow">
          <!--style="overflow: hidden;"-->
         <div class="slideshow-wrapper">
             <div class="slide">

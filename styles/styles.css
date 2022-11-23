@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: transparent;
+    padding-inline: 10vw;
 }
 
 h1 {
@@ -11,7 +12,28 @@ h2 {
     margin-left: 10%;
 }
 
+.header {
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    
+    /*display: flex;
+    align-items:center;
+    justify-content: center;*/
+}
+
+.searchbar {
+    /*padding-top: 20px;*/
+    text-align: center;
+}
+
 ul {
+
     list-style-type: none;
     margin: 0;
     padding: 10;
@@ -20,17 +42,10 @@ ul {
 }
 
 li {
+    text-align: start;
+    list-style-type: none;
     display: inline;
     float: left;
-   /*vertical-align: bottom;*/
-}
-
-li .a2:hover {
-    background-color: lightskyblue;
-}
-
-.searchbar {
-    text-align: center;
 }
 
 .a2 {
@@ -41,8 +56,13 @@ li .a2:hover {
     text-decoration: none;
 }
 
+li .a2:hover {
+    background-color: lightskyblue;
+}
+
+
 .grid-container {
-    margin-inline: 10%;
+    /*margin-inline: 10%;*/
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
@@ -62,9 +82,9 @@ li .a2:hover {
 /*https://www.geeksforgeeks.org/how-to-make-a-carousel-using-css/*/
         /* ----- slideshow stylings ----- */
     .slideshow {
+    padding-top: 69px;
     height: 420px;
     overflow: hidden; /* to hide slides in x-direction */
-    position: relative;
     }
     /* wrapper which wraps all the slideshow images stylings */
     .slideshow-wrapper {
@@ -112,8 +132,8 @@ li .a2:hover {
 /*esta contendrá el resultado de cada búsqueda */
 .tarjeta {
     padding: 1.25rem;
-    margin-inline-start: 7%;
-    margin-inline-end: 7%;
+    /*margin-inline-start: 7%;
+    margin-inline-end: 7%;*/
     margin-top: 1em;
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 3px;
@@ -128,4 +148,20 @@ li .a2:hover {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2px;
     text-align: left;
+}
+
+
+
+.footer {
+    margin-top: 7px;
+    padding-top: 23px;
+    padding-bottom: 42px;
+    margin-inline: -10vw;
+    background-color: lightgrey;
+    text-align: center;
+}
+.firma {
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }

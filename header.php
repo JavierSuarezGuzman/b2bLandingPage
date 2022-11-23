@@ -7,9 +7,17 @@
 </head>
 <body>
 
-<nav class="navbar">
+<nav class="header">
+
   <ul>
-    <li> <a class="logo" href="index.php"><img height="56px" src="assets/Morganalogoblue.png"></a> </li>
+    <li> <a href="index.php"><img height="56px" src="assets/Morganalogoblue.png"></a> </li>
+
+    <div class="searchbar">
+    <form action="resultados.php" method="GET">
+    <input type="text" name="busqueda"></input> <input type="submit" value="🔎"></input><br>
+    </form>
+    </div>
+
     <li style="float:right">
       <a class="a2" href="#">Acerca de y contacto</a>
     </li>
@@ -20,13 +28,10 @@
     <a class="a2" href="#">Ingresar</a>
     </li>
   </ul>
+
 </nav>
 
-<div class="searchbar">
-<form action="resultados.php" method="GET">
-<input type="text" name="busqueda"></input> <input type="submit" value="🔎"></input><br>
-</form>
-</div>
+
     
 </body>
 </html>
