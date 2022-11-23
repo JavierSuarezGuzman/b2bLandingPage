@@ -8,10 +8,12 @@
 <body>
 <br><br><br><br>
 <?php
-include("header.php");?>
+include("header.php");
+?>
 <h2>Ingresar información de publicación :</h2><br>
+
 <div style="margin-inline: 20%;">
-<form method="POST">
+<form method="POST" action="registrar.php" enctype="multipart/form-data">
     <p>Nombre de empresa: <input style="float:right; margin-right:15%" type="text" placeholder="Nombre completo" name='nombre'></p>
     <p>Correo electrónico: <input style="float:right; margin-right:15%" type="email" placeholder="Correo electrónico" name='correo'></p><br>
 
@@ -20,12 +22,11 @@ include("header.php");?>
     
     Descripción: <br><textarea rows="10" cols="69" placeholder="Describa su producto o servicio" name="descripcion"></textarea><br>
 
-    <input type="submit" name="registrar" value="Publicar">
+    <input type="submit" name="submit" value="Publicar">
+</form>
 </div>
 <br><br><br><br>
-<?php 
-include("registrar.php");
-?>
+
 <div>
 <?php
 include("footer.php");

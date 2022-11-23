@@ -16,6 +16,7 @@ try {
                 $name = $row['name'];
                 $email = $row['email'];
                 $offer = $row['offer'];
+                $imageURL = 'uploads/'.$row["file_name"];
                 $score = $row['score'];
                 $descr = $row['descr'];
     
@@ -23,7 +24,11 @@ try {
 
                 <div class="tarjeta">
                     <div class="grid-tarjeta">
-                    <div class="tarjeta-item">imagen</div>
+                    <div class="tarjeta-item">
+                    
+                    <img src="<?php echo $imageURL; ?>" />
+                        
+                    </div>
                     <div class="tarjeta-item">
                     <h3> <?php echo "$offer ";?> </h3>
                     Añadido: <?php echo "$dateadd";?><br>
