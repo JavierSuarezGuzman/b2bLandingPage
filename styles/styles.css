@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #fbfbfb;
+    background-color: #f4f9ff;
     padding-inline: 10vw;
 }
 
@@ -31,7 +31,7 @@ h2 {
 
 .center {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -190,7 +190,7 @@ li .a2:hover {
     padding-top: 23px;
     padding-bottom: 42px;
     margin-inline: -10vw;
-    background-color: lightgrey;
+    background-color: rgb(193, 199, 206);
     text-align: center;
 }
 .firma {

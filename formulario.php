@@ -6,19 +6,23 @@
 </head>
 
 <body>
+<br><br><br><br>
 <?php
 include("header.php");?>
-<form method="POST"> <br>
-<h2>Ingresar información :</h2>
-<input type="text" placeholder="Nombre completo" name='nombre'><br>
-<input type="email" placeholder="Correo electrónico" name='correo'><br><br>
+<h2>Ingresar información de publicación :</h2><br>
+<div style="margin-inline: 20%;">
+<form method="POST">
+    <p>Nombre de empresa: <input style="float:right; margin-right:15%" type="text" placeholder="Nombre completo" name='nombre'></p>
+    <p>Correo electrónico: <input style="float:right; margin-right:15%" type="email" placeholder="Correo electrónico" name='correo'></p><br>
 
-<input type="file" name="file"><br>
-<input type="text" placeholder="Título del producto o servicio a ofrecer" name="ofrecimiento"><br><br>
-<textarea placeholder="Describa su producto o servicio" name="descripcion"></textarea><br>
+    <p>Imagen de referencia: <input style="float:right; margin-right:15%" type="file" name="file"></p><br>
+    <p>Título de la publicación: <input style="float:right; margin-right:15%" type="text" placeholder="Título del producto o servicio a ofrecer" name="ofrecimiento"></p><br>
+    
+    Descripción: <br><textarea rows="10" cols="69" placeholder="Describa su producto o servicio" name="descripcion"></textarea><br>
 
-<input type="submit" name="registrar" >
-
+    <input type="submit" name="registrar" value="Publicar">
+</div>
+<br><br><br><br>
 <?php 
 include("registrar.php");
 ?>
