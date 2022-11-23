@@ -2,7 +2,10 @@
 
 include("con_bd.php");
 
+
+
 if(isset($_POST["registrar"])) {
+
     if (strlen($_POST["nombre"]) > 1 && 
     strlen($_POST["correo"]) > 4 && 
     strlen($_POST["ofrecimiento"]) > 1) {

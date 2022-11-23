@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: transparent;
+    background-color: #fbfbfb;
     padding-inline: 10vw;
 }
 
@@ -20,6 +20,8 @@ h2 {
     top: 0;
     margin: 0;
     padding: 0;
+    padding-inline: 20%;
+    margin-left: -20%;
     width: 80%;
     
     /*display: flex;
@@ -27,9 +29,33 @@ h2 {
     justify-content: center;*/
 }
 
+.center {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
 .searchbar {
     /*padding-top: 20px;*/
     text-align: center;
+}
+
+.searchinput {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 420px;
+    background: #f1f1f1;
+  }
+
+.searchbutton {
+    float: right;
+    padding: 10px;
+    background: lightskyblue;
+    color: white;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-left: none;
 }
 
 ul {
@@ -50,14 +76,14 @@ li {
 
 .a2 {
     display: block;
-    color: blue;
+    color: grey;
     text-align: center;
     padding: 8px;
     text-decoration: none;
 }
 
 li .a2:hover {
-    background-color: lightskyblue;
+    color: lightskyblue;
 }
 
 
@@ -69,13 +95,20 @@ li .a2:hover {
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: white;
     border-radius: 3px;
-    margin: 1px;
-    padding: 20px;
-    font-size: 30px;
+    margin: 10px;
+    margin-inline: 20px;
+    padding: 10px;
     text-align: center;
+}
+
+.grid-item:hover {
+    background-color: lightgrey;
+}
+
+.a-grid {
+    text-decoration: none;
 }
 
 
@@ -83,7 +116,7 @@ li .a2:hover {
         /* ----- slideshow stylings ----- */
     .slideshow {
     padding-top: 69px;
-    height: 420px;
+    height: 500px;
     overflow: hidden; /* to hide slides in x-direction */
     }
     /* wrapper which wraps all the slideshow images stylings */
@@ -131,6 +164,7 @@ li .a2:hover {
 
 /*esta contendrá el resultado de cada búsqueda */
 .tarjeta {
+    background-color: white;
     padding: 1.25rem;
     /*margin-inline-start: 7%;
     margin-inline-end: 7%;*/
@@ -145,7 +179,6 @@ li .a2:hover {
 }
 
 .tarjeta-item {
-    background-color: rgba(255, 255, 255, 0.8);
     padding: 2px;
     text-align: left;
 }

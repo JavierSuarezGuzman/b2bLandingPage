@@ -1,5 +1,7 @@
 <?php
 
+?><br><br><br><br><?php
+
 try {
     $include = include("con_bd.php");
 
@@ -18,6 +20,7 @@ try {
                 $descr = $row['descr'];
     
                 ?>
+
                 <div class="tarjeta">
                     <div class="grid-tarjeta">
                     <div class="tarjeta-item">imagen</div>
@@ -28,6 +31,7 @@ try {
                     Descripción: <?php echo "$descr";?>
                     </div>
             </div> 
+
             </div><?php
     
     

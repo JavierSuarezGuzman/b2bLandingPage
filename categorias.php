@@ -13,48 +13,48 @@
         
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Nombre categoría </p>
+        <a class="a-grid" href="#"><img src="assets/th.png" height="100px" />
+        <br> Nombre categoría </a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Servicios textiles </p>
+        <a class="a-grid" href="#"><img src="assets/textil.png" height="100px"/>
+        <br> Servicios textiles </a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Alimentos </p>
+        <a class="a-grid" href="#"><img src="assets/vegetable.png" height="100px"/>
+        <br> Alimentos </a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Imprentas </p>
+        <a class="a-grid" href="#"><img src="assets/printing.png" height="100px"/>
+        <br> Imprentas </a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Electricidad </p>
+        <a class="a-grid" href="#"><img src="assets/electricidad.png" height="100px"/>
+        <br> Electricidad </a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Maquinaria </p>
+        <a class="a-grid" href="#"><img src="assets/maquinaria.png" height="100px"/>
+        <br> Maquinaria </a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Construcción </p>
+        <a class="a-grid" href="#"><img src="assets/construction.png" height="100px"/>
+        <br> Construcción></a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Nombre categoría </p>
+        <a class="a-grid" href="#"><img src="assets/th.png" height="100px"/>
+        <br> Nombre categoría </a> 
         </div>
 
         <div class="grid-item">
-        <a href="#">ÍCONO</a> 
-        <p> Buscar más categorías </p>
+        <a class="a-grid" href="#"><img src="assets/th.png" height="100px"/>
+        <br> Buscar más categorías</a> 
         </div>
 
 
