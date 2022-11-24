@@ -1,5 +1,6 @@
 <?php
-
+/* Javier Suárez Guzmán 
+    Noviembre 2022 */
 ?><br><br><br><br><?php
 
 //PENDIENTE1: Achicar las imagenes
@@ -51,7 +52,6 @@ try {
             }
         }else{
             echo "<h1>NO EXISTEN DATOS EN LA BBDD</h1>";
-    
         }
     }
 

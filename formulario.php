@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--/* Javier Suárez Guzmán 
+    Noviembre 2022 */-->
 <html>
 <head>
 <title>Registrar productos / servicios</title>

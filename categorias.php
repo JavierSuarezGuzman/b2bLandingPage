@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--/* Javier Suárez Guzmán 
+    Noviembre 2022 */-->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +9,7 @@
 </head>
 <body>
 
-    <h1>Categorías: </h1>
+    <h1>Categorías</h1>
 
     <div class="grid-container">
         

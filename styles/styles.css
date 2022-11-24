@@ -1,10 +1,17 @@
+/* Javier Suárez Guzmán
+Noviembre 2022 */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 body {
+  font-family: 'Muli', sans-serif;
     margin: 0;
     background-color: #f4f9ff;
     padding-inline: 10vw;
 }
 
 h1 {
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 
@@ -174,13 +181,10 @@ li .a2:hover {
 }
 
 .grid-tarjeta {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.tarjeta-item {
     padding: 2px;
     text-align: left;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 

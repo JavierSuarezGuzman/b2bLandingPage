@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--/* Javier Suárez Guzmán 
+    Noviembre 2022 */-->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +8,7 @@
 </head>
 <body>
     <div class="slideshow">
-    <h2>Productos y proveedores destacados:</h2> 
+    <h2>Productos y proveedores destacados</h2> 
 
          <!--style="overflow: hidden;"-->
         <div class="slideshow-wrapper">
