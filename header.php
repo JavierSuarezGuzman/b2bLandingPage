@@ -15,7 +15,7 @@
     <li> <a href="index.php"><img height="56px" src="assets/Morganalogoblue.png"></a> </li>
 
       <form class="searchbar" action="buscador.php" method="GET">
-        <input class="searchinput" type="text" name="busqueda" placeholder="Buscar productos, servicios o proveedores"></input>
+        <input class="searchinput" type="text" name="busqueda" placeholder="Buscar productos o servicios"></input>
         <input class="searchbutton" type="submit" value="🔎"></input>
       </form>
 
