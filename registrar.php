@@ -30,11 +30,15 @@ try {
           strlen($_POST["ofrecimiento"]) > 1) {
       
               if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
-            
       
               $consulta = "INSERT INTO `b2b`( `name`, `dateadd`, `email`, `offer`, `file_name`, `descr`) VALUES ( '$name','$dateadd', '$email','$offer','".$fileName."','$descr' )";
-      
               $resultado = mysqli_query($conexion, $consulta);
+
+          }else{
+
+            $consulta = "INSERT INTO `b2b`( `name`, `dateadd`, `email`, `offer`, `file_name`, `descr`) VALUES ( '$name','$dateadd', '$email','$offer','../assets/th.png','$descr' )";
+            $resultado = mysqli_query($conexion, $consulta);
+
           }
               if($resultado) {
                   include("header.php");
@@ -42,11 +46,11 @@ try {
                   include("footer.php");
               }else {
                   include("header.php");
-                  echo "<br><br><br><br><br>Ha ocurrido un error";
+                  echo "<br><br><br><br><br><h3 style='color:red'>Ha ocurrido un error. Vualva a intentarlo</h3>";
                   include("footer.php");
               }
           }else {
-              echo "<br><br><br><br><br><h3 style='color:red'>DEBES COMPLETAR TODOS LOS CAMPOS, EL NOMBRE DEBE TENER AL MENOS 2 LETRAS Y EL CORREO DEBE SER VÁLIDO</h3>";
+              echo "<br><br><br><br><br>DEBES COMPLETAR TODOS LOS CAMPOS, EL NOMBRE DEBE TENER AL MENOS 2 LETRAS Y EL CORREO DEBE SER VÁLIDO";
               include("formulario.php");
           }
       

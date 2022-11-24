@@ -1,8 +1,15 @@
 /* Javier Suárez Guzmán
 Noviembre 2022 */
 
-
-body {
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  }
+  body {
+    font-family: "Quicksand", Sans-Serif;
+  
     margin: 0;
     background-color: #f4f9ff;
     padding-inline: 10vw;

@@ -33,8 +33,8 @@ try {
                         <div class="tarjeta-texto">
                             <h3> <?php echo "$offer";?> </h3>
                             Añadido: <?php echo "$dateadd";?><br>
-                            <b>Por: </b> <?php echo "$name $email";?><br>
-                            Descripción: <?php echo "$descr";?>
+                            <b>Por: </b> <?php echo "$name | $email";?>
+                            <br><br>Descripción: <?php echo "$descr";?>
                         </div>
 
                     </div> 
