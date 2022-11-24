@@ -1,17 +1,14 @@
 /* Javier Suárez Guzmán
 Noviembre 2022 */
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 
 body {
-  font-family: 'Muli', sans-serif;
     margin: 0;
     background-color: #f4f9ff;
     padding-inline: 10vw;
 }
 
 h1 {
-    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 
@@ -122,6 +119,7 @@ li .a2:hover {
 /*https://www.geeksforgeeks.org/how-to-make-a-carousel-using-css/*/
         /* ----- slideshow stylings ----- */
     .slideshow {
+        border-radius: 6px;
     padding-top: 69px;
     height: 500px;
     overflow: hidden; /* to hide slides in x-direction */
@@ -173,20 +171,29 @@ li .a2:hover {
 .tarjeta {
     background-color: white;
     padding: 1.25rem;
-    /*margin-inline-start: 7%;
-    margin-inline-end: 7%;*/
     margin-top: 1em;
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 3px;
+    margin-inline: 7%;
+    /*margin-inline-start: 7%;
+    margin-inline-end: 7%;*/
 }
 
 .grid-tarjeta {
     padding: 2px;
-    text-align: left;
-    display: grid;
-    grid-template-columns: auto auto;
+    column-count:3;
+    /*display: grid;
+    grid-template-columns: auto auto;*/
 }
 
+.tarjeta-imagen {
+    column-span: 1;
+    border-radius: 8px;
+}
+
+.tarjeta-texto {
+    column-span: 2;
+}
 
 
 .footer {

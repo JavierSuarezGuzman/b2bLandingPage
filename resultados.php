@@ -12,7 +12,7 @@
 <?php
 
 include("header.php");
-include("mostrar.php");
+include("buscador.php");
 include("footer.php");
 
 ?>
