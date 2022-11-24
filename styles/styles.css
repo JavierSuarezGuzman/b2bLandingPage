@@ -222,3 +222,23 @@ li .a2:hover {
     align-items:center;
     justify-content: center;
 }
+
+
+.input-form {
+    float:right; 
+    
+    padding: 7px;
+    border: 1px solid grey;
+    width: 250px;
+    background:white;
+}
+
+.button-form {
+    margin-inline: 33%;
+    padding: 10px;
+    padding-inline: 69px;
+    background: lightskyblue;
+    color: black;
+    font-size: 16px;
+    border: 1px solid grey;
+}
