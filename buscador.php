@@ -52,11 +52,10 @@ try {
             <?php
     
             }
-
-        }else{
-            ?>
-            <br><br><br><br><h1>No existen resultados para su búsqueda</h1>
-            <?php
+                ?>
+                <br><br><br><br><h1>Fin de los resultados para su búsqueda</h1>
+                <?php
+            
         }
     }
 
