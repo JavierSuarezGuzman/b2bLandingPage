@@ -9,7 +9,7 @@
 <body>
 
 
-<div class="footer">
+<div class="footer" id="footer">
     Únete a nuestro newsletter, con información sobre nuevos proveedores y productos destacados directo a tu correo electrónico
     <br><br><input type="email" placeholder="ejemplo@correo.cl"></input> <button>Suscribirse</button><br>
     Nunca compartiremos tu correo con externos.

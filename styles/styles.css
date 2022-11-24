@@ -176,6 +176,9 @@ li .a2:hover {
 
 /*esta contendrá el resultado de cada búsqueda */
 .tarjeta {
+    min-height: 150px;
+    max-height: 210px;
+    overflow: hidden;
     background-color: white;
     padding: 1.25rem;
     margin-top: 1em;
@@ -195,7 +198,10 @@ li .a2:hover {
 
 .tarjeta-imagen {
     column-span: 1;
-    border-radius: 8px;
+    margin: 0;
+}
+.tarjeta-imagen img {
+    /*no puedo centrar verticalmente */
 }
 
 .tarjeta-texto {
@@ -204,7 +210,7 @@ li .a2:hover {
 
 
 .footer {
-    margin-top: 7px;
+    margin-top: 69px;
     padding-top: 23px;
     padding-bottom: 42px;
     margin-inline: -10vw;

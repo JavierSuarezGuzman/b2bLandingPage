@@ -26,7 +26,7 @@ try {
                 <div class="tarjeta">
                     <div class="grid-tarjeta">
 
-                        <div>
+                        <div class="tarjeta-imagen">
                           <img width="210px" src="<?php echo $imageURL; ?>" />  
                         </div>
 

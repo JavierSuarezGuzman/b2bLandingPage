@@ -20,14 +20,15 @@
       </form>
 
     <li style="float:right">
-      <a class="a2" href="#">Acerca de y contacto</a>
-    </li>
-    <li style="float:right">
     <a class="a2" href="formulario.php">VENDER</a>
     </li>
     <li style="float:right">
     <a class="a2" href="#">Ingresar</a>
     </li>
+    <li style="float:right">
+      <a class="a2" href="#footer">Contacto</a>
+    </li>
+    
   </ul>
 
 </nav>
