@@ -8,8 +8,8 @@ Noviembre 2022 */
     src: url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
   }
   body {
+
     font-family: "Quicksand", Sans-Serif;
-  
     margin: 0;
     background-color: #f4f9ff;
     padding-inline: 10vw;
@@ -34,10 +34,8 @@ h2 {
     padding-inline: 20%;
     margin-left: -20%;
     width: 80%;
-    
-    /*display: flex;
-    align-items:center;
-    justify-content: center;*/
+
+    box-shadow: 0px 7px 21px #8d8d8d6c;
 }
 
 .center {
@@ -94,8 +92,24 @@ li {
 }
 
 li .a2:hover {
-    color: lightskyblue;
+    color: black;
 }
+
+.subir-boton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
 
 
 .grid-container {
@@ -206,8 +220,17 @@ li .a2:hover {
 
 .tarjeta-texto {
     column-span: 2;
+    text-overflow: ellipsis;
+    /*overflow: hidden;
+white-space: nowrap;
+*/
 }
 
+.footer-buscador{    
+    position: absolute;
+    width: 80%;
+    bottom: 0px;
+}
 
 .footer {
     margin-top: 69px;

@@ -53,7 +53,10 @@ try {
     
             }
                 ?>
-                <br><br><br><br><h1>Fin de los resultados para su búsqueda</h1>
+                <br><br><br><br>
+                <div style="min-height: 300px;">
+                    <h1>Fin de los resultados para su búsqueda</h1>
+                </div>
                 <?php
             
         }
@@ -64,14 +67,13 @@ try {
 }
 
 
-
+?> 
+<div class="">
+    
+<?php
 include("footer.php");
-
-
-
-
 ?>
-
+</div>
 
 </body>
 </html>

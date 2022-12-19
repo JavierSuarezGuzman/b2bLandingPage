@@ -20,7 +20,7 @@
       </form>
 
     <li style="float:right">
-    <a class="a2" href="formulario.php">VENDER</a>
+    <a class="a2" style="background: lightskyblue; padding: 15px 32px;" href="formulario.php">Vender</a>
     </li>
     <li style="float:right">
     <a class="a2" href="#">Ingresar</a>
@@ -33,5 +33,11 @@
 
 </nav>
     
+
+<!--
+<button onclick="subirFuncion()" class="subir-boton">Subir</button>
+-->
+
+
 </body>
 </html>
